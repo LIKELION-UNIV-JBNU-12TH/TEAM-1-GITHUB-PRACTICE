@@ -10,3 +10,6 @@ def add_numbers():
 
 # 함수 호출하여 프로그램 실행
 add_numbers()
+
+print("Hi")
+print("I'm Hwang")
