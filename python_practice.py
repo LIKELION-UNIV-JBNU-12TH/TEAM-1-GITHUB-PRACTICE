@@ -12,7 +12,5 @@ def add_numbers():
 add_numbers()
 
 print("Hi")
-<<<<<<< HEAD
 print("I'm Hwang")
-=======
->>>>>>> 0132872673682e587b0bc4982b756e6fdb6b2e9d
+
