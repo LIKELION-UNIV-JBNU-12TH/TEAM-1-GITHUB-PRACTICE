@@ -11,10 +11,14 @@ public class AddNumbers {
         
         System.out.print("두 번째 숫자를 입력하세요: ");
         double num2 = scanner.nextDouble();
+
+       // === 수정한 부분 ===
+        System.out.print("세 번째 숫자를 입력하세요: ");
+        double num3 = scanner.nextDouble();
         
-        // 두 숫자를 더하고 결과 출력
-        double result = num1 + num2;
-        System.out.println("두 숫자의 합은: " + result);
+        // 세 숫자를 더하고 결과 출력
+        double result = num1 + num2 + num3;
+        System.out.println("세 숫자의 합은: " + result);
         
         // Scanner 닫기
         scanner.close();
