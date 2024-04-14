@@ -13,6 +13,8 @@ int main() {
     // 두 숫자를 더하고 결과 출력
     result = num1 + num2;
     printf("두 숫자의 합은: %lf\n", result);
+
+    printf("두 숫자의 차는 : %lf\n", num1 - num2);
     
     return 0;
 }
